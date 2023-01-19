@@ -3,7 +3,10 @@ class Program //Write a C# program to print the sum of two numbers
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(7+12);
+        int firstvariable = 7;
+        int secondvariable = 12;
+
+        Console.WriteLine(firstvariable + secondvariable);
         Console.ReadKey(true);
     }
 }
