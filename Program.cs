@@ -6,7 +6,8 @@ class Program //Write a C# program to print the sum of two numbers
         int firstvariable = 7;
         int secondvariable = 12;
 
-        Console.WriteLine(firstvariable + secondvariable);
+        Console.WriteLine($"The sum of {firstvariable} and {secondvariable} is {firstvariable + secondvariable}");
+        
         Console.ReadKey(true);
     }
 }
