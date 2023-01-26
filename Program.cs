@@ -3,17 +3,14 @@ class Program //Write a C# program to print the sum of two numbers
 {
     static void Main(string[] args)
     {
-        double firstvariable = 7;
-        double secondvariable = 12;
+        int firstvariable = 5;
+        int secondvariable = 6;
         Console.Write("Enter the first number: ");
-        firstvariable = Convert.ToDouble( Console.ReadLine() );
+        firstvariable = Convert.ToInt32( Console.ReadLine() );
         Console.Write("Enter the second number: ");
-        secondvariable = Convert.ToDouble( Console.ReadLine() );
+        secondvariable = Convert.ToInt32( Console.ReadLine() );
 
-        Console.WriteLine($" {firstvariable} / {secondvariable} = {firstvariable / secondvariable}");
-        Console.WriteLine($" {firstvariable} + {secondvariable} = {firstvariable + secondvariable}");
-        Console.WriteLine($" {firstvariable} - {secondvariable} = {firstvariable - secondvariable}");
-        Console.WriteLine($" {firstvariable} * {secondvariable} = {firstvariable * secondvariable}");
+        Console.WriteLine($" {secondvariable} {firstvariable}");
 
         Console.ReadKey(true);
     }
